@@ -15,7 +15,7 @@ aside {
     float: right;
     text-align: right;
     padding: 0.3rem 1rem;
-    border-right: 15px solid rgb(80, 80, 80);
+    border-right: 15px solid rgb(182, 22, 22);
 }
 
 aside::first-line {
@@ -53,8 +53,8 @@ article a:link {
 }
 
 section {
-    border: 2px solid green;
-    border-left: 30px solid green;
+    border: 2px solid rgb(37, 16, 224);
+    border-left: 30px solid rgb(37, 16, 224);
     padding: 0.3rem;
 }
 
