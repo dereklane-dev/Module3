@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-right: 15px solid black;
+    padding: 3px;
+    font-variant-caps: small-caps;
+}
+
+aside {
+    float: right;
+    text-align: right;
+    padding: 0.3rem 1rem;
+    border-right: 15px solid rgb(80, 80, 80);
+}
+
+aside::first-line {
+    font-weight: bold;    
+}
+
+h1 {
+    text-align: left;
+    font-size: 38px;
+    margin-left: 0.3rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 4rem;
+    font-style: italic;
+    line-height: 1;
+}
+
+article {
+    max-width: 700px;
+    justify-self: center;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    line-height: 1.4;
+    background-image: url("../images/WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+article a:link {
+    font-weight: bold;
+}
+
+section {
+    border: 2px solid green;
+    border-left: 30px solid green;
+    padding: 0.3rem;
+}
+
+footer {
+    text-align: right;
+    color: grey;
+    border-top: 1.5px solid grey;
+    font-style: italic;
+    font-size: 14px;
+    padding-top: 0.3rem
+}
+
+footer a:link {
+    color: grey;
+}
